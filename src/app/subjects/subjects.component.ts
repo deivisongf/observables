@@ -30,7 +30,7 @@ export class SubjectsComponent implements OnInit {
     this.dataService.dataObservable.subscribe(this.behaviorSubject);
   }
 
-  connect(){
+  connect() {
     this.dataService.dataObservable.connect();
   }
 }

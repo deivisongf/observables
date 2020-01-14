@@ -5,6 +5,9 @@
 
 <hr>
 
-<div>
-    
+<div style="height: 100%; width: 100%; display: flex;">
+    <app-subject-child name ="Subject" [subject]="subject"></app-subject-child>
+    <app-subject-child name ="ReplaySubject" [subject]="replaySubject"></app-subject-child>
+    <app-subject-child name ="AsyncSubject" [subject]="asyncSubject"></app-subject-child>
+    <app-subject-child name ="BehaviorSubject" [subject]="behaviorSubject"></app-subject-child>
 </div>
